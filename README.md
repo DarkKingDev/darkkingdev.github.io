@@ -1,2 +1,2 @@
 # darkkingdev.github.io
-Personal ebsite for the not so dark net
+Personal website for the not so dark net
