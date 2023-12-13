@@ -1,0 +1,73 @@
+baseURL: https://darkking.dev/
+languageCode: en-gb
+title: ./DarkKing.dev
+theme: "PaperMod"
+
+params:
+  ShowRssButtonInSectionTermList: true
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  enableEmoji: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  hideFooter: true
+  disableScrollToTop: false
+  defaultTheme: dark
+
+  profileMode:
+        enabled: true
+        title: "**$whoami:** DarkKing"
+        subtitle: "Security researcher interested in red teaming, exploiting and overall system busting. Hardware hobbist.🤘"
+        imageUrl: "assets/page/me.png"
+        imageTitle: "Dark King himself" 
+        imageWidth: 180 
+        imageHeight: 180 
+        #buttons:
+            #- name: Blog
+            #  url: "/blog"
+            #- name: Tools
+            #  url: "/tools"
+            #- name: Projects
+            #  url: "/projects"
+            #- name: Hire Me
+            #  url: "/hireme"
+
+  socialIcons:
+    - name: "HackTheBox"
+      url: "https://hackthebox.com/profile/378553"
+    - name: "TryHackMe"
+      url: "https://tryhackme.com/p/darkkingdev"
+    - name: "github"
+      url: "https://github.com/darkkingdev"
+    - name: "rss"
+      url: "index.xml"
+
+  assets:
+    disableFingerprinting: true
+
+
+minify:
+  minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+
+        
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
+
+module:
+  imports:
+  - path: github.com/hugomods/icons/vendors/simple-icons

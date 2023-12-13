@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'Louis George Cafe';
+    src: url(../../assets/page/LouisGeorgeCafe.ttf);
+  }
+
+body center h5{
+    font-family:'Louis George Cafe';
+ }
+
+.profile_inner img{
+   transition: filter ease 0.3s;
+}
+.profile_inner img:hover{
+   -webkit-filter: drop-shadow(0px 0px 7px #e95a5a);
+   filter: drop-shadow(0px 0px 7px #e95a5a);
+   cursor: pointer;
+}
+
+
+strong{
+   color: #e95a5a;
+}
