@@ -24,15 +24,13 @@ params:
         imageTitle: "Dark King himself" 
         imageWidth: 180 
         imageHeight: 180 
-        #buttons:
+        buttons:
             #- name: Blog
             #  url: "/blog"
             #- name: Tools
             #  url: "/tools"
-            #- name: Projects
-            #  url: "/projects"
-            #- name: Hire Me
-            #  url: "/hireme"
+            - name: About me / Hire Me
+              url: "/aboutme"
 
   socialIcons:
     - name: "HackTheBox"
