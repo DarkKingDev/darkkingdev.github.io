@@ -39,8 +39,8 @@ params:
       url: "https://tryhackme.com/p/darkkingdev"
     - name: "github"
       url: "https://github.com/darkkingdev"
-    - name: "rss"
-      url: "index.xml"
+    #- name: "rss"
+    #  url: "index.xml"
 
   assets:
     disableFingerprinting: true
